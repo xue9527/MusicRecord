@@ -11,6 +11,12 @@
 		3B159D2725652C9B0021B712 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B159D2625652C9B0021B712 /* ContentView.swift */; };
 		3B159D2925652C9C0021B712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B159D2825652C9C0021B712 /* Assets.xcassets */; };
 		3B159D2C25652C9C0021B712 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B159D2B25652C9C0021B712 /* Preview Assets.xcassets */; };
+		3B159D3525652FA80021B712 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B159D3425652FA80021B712 /* Song.swift */; };
+		3B159D3C256532570021B712 /* SongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B159D3B256532570021B712 /* SongData.swift */; };
+		3B159D3F256532BD0021B712 /* SongRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B159D3E256532BD0021B712 /* SongRowView.swift */; };
+		3B159D42256535060021B712 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B159D41256535060021B712 /* SongList.swift */; };
+		3B159D45256537DC0021B712 /* SongEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B159D44256537DC0021B712 /* SongEditor.swift */; };
+		3BA270EA256BE40600085041 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA270E9256BE40600085041 /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		3B159D2825652C9C0021B712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B159D2B25652C9C0021B712 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B159D2D25652C9C0021B712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B159D3425652FA80021B712 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		3B159D3B256532570021B712 /* SongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongData.swift; sourceTree = "<group>"; };
+		3B159D3E256532BD0021B712 /* SongRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRowView.swift; sourceTree = "<group>"; };
+		3B159D41256535060021B712 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		3B159D44256537DC0021B712 /* SongEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongEditor.swift; sourceTree = "<group>"; };
+		3BA270E9256BE40600085041 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				3B159D2425652C9B0021B712 /* MusicRecordApp.swift */,
 				3B159D2625652C9B0021B712 /* ContentView.swift */,
+				3B159D3B256532570021B712 /* SongData.swift */,
+				3B159D41256535060021B712 /* SongList.swift */,
+				3B159D44256537DC0021B712 /* SongEditor.swift */,
+				3BA270E9256BE40600085041 /* PieChartView.swift */,
+				3B159D3E256532BD0021B712 /* SongRowView.swift */,
+				3B159D3425652FA80021B712 /* Song.swift */,
 				3B159D2825652C9C0021B712 /* Assets.xcassets */,
 				3B159D2D25652C9C0021B712 /* Info.plist */,
 				3B159D2A25652C9C0021B712 /* Preview Content */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA270EA256BE40600085041 /* PieChartView.swift in Sources */,
+				3B159D42256535060021B712 /* SongList.swift in Sources */,
+				3B159D3525652FA80021B712 /* Song.swift in Sources */,
+				3B159D45256537DC0021B712 /* SongEditor.swift in Sources */,
 				3B159D2725652C9B0021B712 /* ContentView.swift in Sources */,
+				3B159D3C256532570021B712 /* SongData.swift in Sources */,
 				3B159D2525652C9B0021B712 /* MusicRecordApp.swift in Sources */,
+				3B159D3F256532BD0021B712 /* SongRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

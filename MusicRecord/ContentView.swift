@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var songsData = SongData()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            //PieChartView()
+            SongList()
+                .tabItem { Text("歌單") }
+            PieChartView(songsData: songsData)
+                .tabItem { Text("歌曲統計") }
+        }
+        
     }
 }
 
